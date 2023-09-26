@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.header-info-blog {
+    background-color: #000c20;
+    padding: 9px 0;
+}
+
+.header-info {
+    width: calc(100% - 175px);
+    padding-left: 175px;
+    height: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conMail {
+    display: flex;
+}
+
+.contact-div {
+    margin: 0 70px 0 0;
+}
+
+.contact-div,
+.header-info {
+    color: #7b8693;
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.hr-div {
+    background-color: #272522;
+    height: 1px;
+}
+
+.phone-txt,
+.mail-txt {
+    margin: 5px 0;
+}
+
+.contact-icon {
+    /* padding-left: 530px; */
+    display: flex;
+    margin-right: 100px;
+}
+
+.icon-div {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.header {
+    background-color: #000c20;
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 175px;
+    width: calc(100% - 175px);
+}
+
+.nav {
+    display: flex;
+    margin-right: 100px;
+}
+
+.header-main {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    -webkit-transition: all;
+    transition: all 0.4s;
+    text-transform: capitalize;
+
+}
+
+.home {
+    width: 78.84px;
+    height: 62px;
+    margin-top: 40px;
+
+}
+
+.about {
+    width: 79.46px;
+    height: 62px;
+    margin-top: 40px;
+}
+
+.services {
+    width: 98.19px;
+    height: 62px;
+    margin-top: 40px;
+}
+
+.blog1 {
+    width: 69px;
+    height: 62px;
+    margin-top: 40px;
+}
+
+.contact {
+    width: 93.19px;
+    height: 62px;
+    margin-top: 40px;
+}
+
+.but1 {
+    width: 153.44px;
+    height: 50px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    border-radius: 7px;
+    background-color: #f15f22;
+    color: #ffffff;
+    margin-top: 25px;
+    border: 1px solid black;
+    margin-left: 25px;
+
+}
+
+.express-logo1 {
+    margin-top: 28px;
+    height: 70px;
+}
+
+.header-main:hover {
+    color: #f15f22
+}
+
+.but1:hover {
+    background-color: #ac4417;
+}
+
+.burgerMenu {
+    display: none;
+    margin-top: 30px;
+}
+
+.navButtons {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+
+    .header-info-blog,
+    .hr-div {
+        display: none;
+    }
+
+    .header-block {
+        margin-left: 15px;
+        width: calc(100% - 15px);
+    }
+
+    .nav {
+        margin-right: 10px;
+    }
+
+    .home,
+    .about,
+    .services,
+    .contact {
+        width: auto;
+        margin-inline: 5px;
+    }
+
+    .but1 {
+        margin-left: 5px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .header-block {
+        flex-direction: column;
+        margin-right: 15px;
+        width: calc(100% - 30px);
+    }
+    .nav {
+        display: none;
+    }
+
+    .burgerMenu {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .navButtons {
+        /* display: flex; */
+        flex-direction: column;
+        background-color: #4c4c4c;
+        border-radius: 2px;
+    }
+
+    .burgerLinks {
+        height: 32px;
+        margin-inline: 10px;
+        border-bottom: 1px solid black;
+    }
+    .burgerLinks:last-child {
+        border-bottom: none;
+    }
+    .burgerMenuButton{
+        height: 20px;
+        color: white;
+        background-color: #f15f22;
+        outline: none;
+        border: none;
+        border-radius: 7px;
+    }
+}

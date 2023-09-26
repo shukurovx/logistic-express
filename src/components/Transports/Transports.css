@@ -1,0 +1,49 @@
+.services-area{
+    width: 100%;
+    padding: 195px 0 170px;
+}
+.services-blg,
+.services-blg2{
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.services-main{
+    height: 179px;
+    width: 100%;
+}
+.services-txt{
+    color: #f15f22;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 0;
+    margin-bottom: 17px;
+    
+}
+.blog3{
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+    width: 100%;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #2c234d;
+}
+.transport-container{
+    display: flex;
+    padding-left: 135px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 1000px) {
+    .transport-container{
+        padding-left: 50px;
+    }
+}
+@media (max-width: 600px) {
+    .transport-container{
+        padding-left: 0px;
+    }
+}

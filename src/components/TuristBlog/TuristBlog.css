@@ -1,0 +1,189 @@
+.blog2 {
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+    width: 100%;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #2c234d;
+}
+
+.turist-blog1,
+.turist-blog2 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+
+}
+
+.news-txt {
+    color: #f15f22;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+.turist-blog-main {
+    /* height: 179px; */
+    width: 100%;
+}
+
+
+.home-blog-area {
+    width: 100%;
+    padding: 195px 0 170px;
+}
+
+.blog-images {
+    display: flex;
+    width: calc(100% - 140px);
+    margin-left: 140px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.forklift-div,
+.ship-div,
+.containers-div {
+    padding: 0 15px;
+}
+
+.blog-caption {
+    margin-top: 28px;
+}
+
+.date-div {
+    width: 71.8px;
+    height: 79px;
+    background-color: #f5f5f5;
+    border-radius: 7px;
+
+
+}
+
+.day {
+    color: #f15f22;
+    font-size: 32px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.month {
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
+    margin: 0 0;
+    text-align: center;
+    height: 15.4px;
+    color: #111111;
+}
+
+.cpt-div {
+    padding: 9px 19px 15px;
+}
+
+.blog-caption {
+    display: flex;
+}
+
+.name-blg {
+    font-size: 13px;
+    font-family: 'Barlow', sans-serif;
+    color: #717b9b;
+    padding-left: 10px;
+}
+
+.fa-message {
+    padding-left: 25px;
+}
+
+.num-blg {
+    font-size: 13px;
+    font-family: 'Barlow', sans-serif;
+    color: #717b9b;
+    padding-left: 6px;
+}
+
+.blg-2 {
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 270px;
+    height: 101.2px;
+}
+
+.blg-txt {
+    font-size: 24px;
+    font-family: 'Teko', sans-serif;
+    width: 270px;
+    height: 67.2px;
+    color: #191d34;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    display: block;
+    -webkit-transition: all;
+    transition: all 0.4s;
+    text-transform: capitalize;
+}
+
+.blg-txt:hover {
+    color: #f15f22;
+}
+
+.forklift {
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+
+.containers:hover {
+    transform: scale(1.1);
+}
+
+.containers {
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+
+
+.ship {
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+
+.forklift:hover {
+    transform: scale(1.1);
+}
+
+.ship:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+
+    .turist-blog1,
+    .turist-blog2 {
+        margin-left: 0;
+    }
+
+    .blog-images {
+        margin-left: 10px;
+        width: calc(100% - 10px);
+    }
+
+    .home-blog-area {
+        padding: 45px 0 20px;
+    }
+
+    .forklift-div,
+    .ship-div,
+    .containers-div {
+        padding: 0 7px 0 0;
+    }
+    .blg-2 {
+        margin-left: 10px;
+    }
+}

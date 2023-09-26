@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.transport-div {
+    width: 325px;
+    height: 438px;
+    padding: 0 15px;
+    border: 1px solid rgb(216, 216, 255);
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(transparent 50%, #f15f22 80%);
+    background-size: 450px 900px;
+    transition: all 0.7s;
+}
+
+.transport1 {
+    padding: 85px 22px;
+    margin: 0 0 50px;
+}
+
+.cargo {
+    width: 50px;
+    height: 50.4px;
+}
+
+.transport-icon {
+    width: 296px;
+    height: 75.8px;
+    text-align: center;
+}
+
+.cap1 {
+    font-size: 36px;
+    font-family: 'Barlow', sans-serif;
+    color: #1c165c;
+    margin: 0 0 21px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cap-txt {
+    margin: 0 0 36px;
+    color: #57667e;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.transport-div:hover {
+    background-position: 0 -462.5px;
+}
+
+.transport-div::before {
+    color: #fff
+}
+
+@media (max-width: 600px) {
+    .transport-div {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

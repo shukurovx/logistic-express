@@ -1,0 +1,148 @@
+.testimonial-area{
+    width: 100vw;
+    /* height: 767px; */
+    
+}
+.testi-img{
+    background-image: url(../../projectImg/testmnl.jpg);
+    background-size:auto;
+    width: 100%;
+    padding: 190px 0 170px;
+}
+.testimonial-cont{
+    width: calc(100% - 100px);
+    justify-content: space-evenly;
+    display: flex;
+    margin-inline: 50px;
+}
+.tst-blg{
+    width: 70%;
+}
+.testi-txt{
+    width: 100%;
+    margin: 0 0 25px;
+}
+.testi-ttl{
+    color: #f15f22;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.hello-tst{
+    margin: 0 0 8px;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Teko",sans-serif;
+    font-weight: 600;
+
+}
+.tst-title{
+    margin: 0 0 17px;
+}
+.testimonial-cap-txt{
+    color: #a4acc3;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Barlow', sans-serif;
+    margin: 0 0 50px;
+    
+}
+.testimonial-cap{
+    margin: 0 0 50px;
+    width: 90%;
+}
+
+.testimonial-founder{
+    display: flex;
+}
+.founder-text{
+    padding: 17px 0 0 20px;
+    width: 143px;
+    height: 53px;
+    line-height: 1.5;
+    text-align: left;
+}
+.fndr{
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    color: #ffffff;
+}
+.dgsnr{
+    color: #677294;
+    margin: 0 0 5px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.testi-form{
+    width: 370px;
+    margin-top: 0;
+    padding: 0 15px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.testimonial-form{
+    padding: 50px;
+}
+.listening{
+    color: #2c234d;
+    margin: 0 0 30px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Teko",sans-serif;
+    text-align: center;
+
+}
+.testi-input{
+    width: calc(100% - 67px);
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid rgb(218, 218, 218);
+    margin: 0 0 20px;
+    padding: 9px 33px 9px 32px;
+
+}
+.testi-input::placeholder{
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+
+}
+.testi-btn{
+    background-color: #f15f22;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    height: 59px;
+}
+
+@media (max-width: 1200px) {
+    .testi-img{
+        padding: 95px 0 85px;
+    }
+    .testimonial-cont{
+        flex-direction: column;
+        align-items: center;
+        margin-inline: 0px;
+        width: 100%
+    }   
+    .testi-form{
+        width: 50%;
+        margin-top: 30px;
+    }
+    .testimonial-form{
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tst-blg{
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .testimonial-form{
+        padding: 10px 0;
+    }
+}
